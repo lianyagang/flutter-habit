@@ -1,0 +1,13 @@
+/.dart_tool
+/.idea/workspace.xml
+/.vscode
+/example/.dart_tool
+/example/android
+/example/build
+/example/.flutter-plugins
+/example/.flutter-plugins-dependencies
+/example/.packages
+/example/ios/
+/example/pubspec.lock
+/.packages
+/pubspec.lock
