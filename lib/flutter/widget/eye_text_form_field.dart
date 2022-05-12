@@ -260,8 +260,6 @@ class _EyeTextFormFieldState extends State<EyeTextFormField> {
               autofocus: widget.autofocus,
               obscureText: !seeEye,
               autocorrect: widget.autocorrect,
-              autovalidate: widget.autovalidate,
-              maxLengthEnforced: widget.maxLengthEnforced,
               maxLines: widget.maxLines,
               maxLength: widget.maxLength,
               onEditingComplete: widget.onEditingComplete,

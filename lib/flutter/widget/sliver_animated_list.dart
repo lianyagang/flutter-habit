@@ -82,7 +82,7 @@ class SliverAnimatedList extends StatefulWidget {
     assert(context != null);
     assert(nullOk != null);
     final SliverAnimatedListState result = context
-        .ancestorStateOfType(const TypeMatcher<SliverAnimatedListState>());
+        .findAncestorStateOfType<SliverAnimatedListState>();
     if (nullOk || result != null) return result;
     throw FlutterError(
         'SliverAnimatedList.of() called with a context that does not contain a SliverAnimatedList.\n'
